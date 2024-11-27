@@ -5,7 +5,7 @@ const mongoose = require('mongoose');
 const app = express();
 
 // Conexión a la base de datos
-mongoose.connect('mongodb://localhost:27017/perfum', {
+mongoose.connect('mongodb+srv://reyescuerojuanjose:Estilo1062282984@cluster0.mu3cb.mongodb.net/', {
   useNewUrlParser: true,
   useUnifiedTopology: true
 });
